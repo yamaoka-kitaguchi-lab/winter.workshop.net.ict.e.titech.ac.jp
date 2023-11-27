@@ -1,10 +1,10 @@
-import Header from "./Header";
 import Announce from "./Announce";
-import Registration from "./ Registration";
+import Footer from "./Footer";
+import Header from "./Header";
+import Inquiry from "./Inquiry";
 // import Program from "./Program";
 import Detail from "./Presentation";
-import Footer from "./Footer";
-import Manuscript from "./Manuscript";
+import Registration from "./ Registration";
 
 const App = () => {
 	return (
@@ -18,9 +18,9 @@ const App = () => {
 
 				{/* <Program />  */}
 
-				<Manuscript />
-
 				<Detail />
+
+				<Inquiry />
 
 				<Footer />
 			</div>

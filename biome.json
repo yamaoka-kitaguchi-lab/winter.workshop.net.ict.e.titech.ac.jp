@@ -6,6 +6,9 @@
           "all": true,
           "style": {
             "noNonNullAssertion": "off"
+          },
+          "a11y": {
+            "useKeyWithClickEvents": "off"
           }
         }
       }

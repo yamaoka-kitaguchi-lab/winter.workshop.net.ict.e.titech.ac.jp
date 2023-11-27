@@ -5,7 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"lint": "biome check --apply-unsafe ./src && biome lint ./src",
+		"lint": "biome lint ./src",
+		"lint:fix": "biome check --apply-unsafe ./src",
 		"format": "biome format --write ./src",
 		"build": "tsc && vite build",
 		"preview": "vite preview"
@@ -28,7 +29,7 @@
 		"vite": "^5.0.2"
 	},
 	"volta": {
-		"node": "18.18.2",
+		"node": "20.10.0",
 		"yarn": "4.0.2"
 	},
 	"packageManager": "yarn@4.0.2"
