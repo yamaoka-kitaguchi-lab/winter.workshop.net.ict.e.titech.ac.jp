@@ -6,7 +6,7 @@
 
 ### Requirements
 
-- Node.js v18
+- Node.js v20
 - Yarn v4
 
 (おまけ) [Volta](https://volta.sh) を導入すると、`package.json` に記載されたバージョンの Node と Yarn が自動的にインストールされます。おすすめです。
