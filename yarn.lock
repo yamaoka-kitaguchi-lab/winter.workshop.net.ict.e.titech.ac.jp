@@ -5,16 +5,16 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@biomejs/biome@npm:^1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/biome@npm:1.3.3"
+"@biomejs/biome@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/biome@npm:1.4.0"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:1.3.3"
-    "@biomejs/cli-darwin-x64": "npm:1.3.3"
-    "@biomejs/cli-linux-arm64": "npm:1.3.3"
-    "@biomejs/cli-linux-x64": "npm:1.3.3"
-    "@biomejs/cli-win32-arm64": "npm:1.3.3"
-    "@biomejs/cli-win32-x64": "npm:1.3.3"
+    "@biomejs/cli-darwin-arm64": "npm:1.4.0"
+    "@biomejs/cli-darwin-x64": "npm:1.4.0"
+    "@biomejs/cli-linux-arm64": "npm:1.4.0"
+    "@biomejs/cli-linux-x64": "npm:1.4.0"
+    "@biomejs/cli-win32-arm64": "npm:1.4.0"
+    "@biomejs/cli-win32-x64": "npm:1.4.0"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -30,48 +30,48 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 525404f2a62a00bbea732a61530a23c7ac4fd82df1cf5da8544dc4205bdc395435c57c6d8c0766b475fb4d1f1698bca4e33e2e472e8f35a5e7f15015e269399f
+  checksum: 95fe9415f00ae059920a929241f568b039b3f66e2971d101161a04a97d495bbd9142a19347e76227f90a242a7a5f7a9c82a13cba49c11235d9eab7744c2869f6
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-darwin-arm64@npm:1.3.3"
+"@biomejs/cli-darwin-arm64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-darwin-arm64@npm:1.4.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-darwin-x64@npm:1.3.3"
+"@biomejs/cli-darwin-x64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-darwin-x64@npm:1.4.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-linux-arm64@npm:1.3.3"
+"@biomejs/cli-linux-arm64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-linux-arm64@npm:1.4.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-linux-x64@npm:1.3.3"
+"@biomejs/cli-linux-x64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-linux-x64@npm:1.4.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-win32-arm64@npm:1.3.3"
+"@biomejs/cli-win32-arm64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-win32-arm64@npm:1.4.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@biomejs/cli-win32-x64@npm:1.3.3"
+"@biomejs/cli-win32-x64@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@biomejs/cli-win32-x64@npm:1.4.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -509,7 +509,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.38":
+"@types/react@npm:*":
   version: 18.2.38
   resolution: "@types/react@npm:18.2.38"
   dependencies:
@@ -517,6 +517,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 9f9b9925c979e848d572dce6fff34951708127ba6b1fd4306c93fbcab74f5c6cff2b2e47d4222339eeb6c19d264e93450cb2ad6b255c73c536d0a1e2093cc98a
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.39":
+  version: 18.2.39
+  resolution: "@types/react@npm:18.2.39"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 870f7774c676ae0f3ab6339a62b3315f5a296e89412358b15a5249a61e781a8807a2253ef7ad2ec98e7a5bea1e8c3ddd95b02226d6b8ac4a085da59b4a496564
   languageName: node
   linkType: hard
 
@@ -1748,10 +1759,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "winter.workshop.net.ict.e.titech.ac.jp@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:^1.3.3"
+    "@biomejs/biome": "npm:^1.4.0"
     "@popperjs/core": "npm:^2.11.8"
     "@types/bootstrap": "npm:^5.2.10"
-    "@types/react": "npm:^18.2.38"
+    "@types/react": "npm:^18.2.39"
     "@types/react-dom": "npm:^18.2.17"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     bootstrap: "npm:^5.3.2"
