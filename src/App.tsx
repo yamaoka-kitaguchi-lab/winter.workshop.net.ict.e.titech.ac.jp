@@ -4,7 +4,7 @@ import Header from "./Header";
 import Inquiry from "./Inquiry";
 // import Program from "./Program";
 import Detail from "./Presentation";
-import Registration from "./ Registration";
+import Registration from "./Registration";
 
 const App = () => {
 	return (
