@@ -13,13 +13,9 @@ const App = () => {
 				<Header />
 
 				<Announce />
-
 				<Registration />
-
-				{/* <Program />  */}
-
+				{/* <Program /> */}
 				<Detail />
-
 				<Inquiry />
 
 				<Footer />

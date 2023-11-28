@@ -9,6 +9,9 @@
           },
           "a11y": {
             "useKeyWithClickEvents": "off"
+          },
+          "nursery": {
+            "noDefaultExport": "off"
           }
         }
       }
