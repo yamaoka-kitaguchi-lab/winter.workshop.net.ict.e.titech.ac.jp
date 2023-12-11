@@ -30,6 +30,10 @@ const Header = () => {
 					テックちゃん（工大祭公式マスコットキャラクター）
 				</a>
 			</p>
+			<div className="alert alert-info info">
+				<i className="bi bi-info-circle" /> タイムテーブルを公開しました
+				(更新日: 12/11)
+			</div>
 		</section>
 	);
 };
