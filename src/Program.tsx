@@ -30,54 +30,68 @@ const Presentation: FC<PresentationProps> = ({ time, title, speaker }) => (
 	</div>
 );
 
-const FIRST_HALF_SECTIONS: Readonly<SectionProps[]> = [
+const SECTIONS1: Readonly<SectionProps[]> = [
 	{
-		time: "14:00 ~ 14:20",
-		title: "自己紹介・全体連絡",
-		additionalInfo: "",
-	},
-	{
-		time: "14:20 ~ 14:40",
+		time: "13:30 ~ 13:45",
 		title: "開式の辞",
 		additionalInfo: "北口 善明",
 	},
 	{
-		time: "14:40 ~ 15:00",
-		title: "セッション",
-		additionalInfo: "座長: 脇本 和茂",
+		time: "13:45 ~ 14:00",
+		title: "アイスブレイク （自己紹介等）",
+		additionalInfo: "",
+	},
+	{
+		time: "14:00 ~ 15:00",
+		title: "セッション 1",
+		additionalInfo: "座長: 北口 善明",
 	},
 ];
-const PRESENTATIONS: Readonly<PresentationProps[]> = [
+const PRESENTATION1: Readonly<PresentationProps[]> = [
 	{
-		time: "14:40 ~ 15:00",
-		title: "2D-XOR FECを適用したUDTにおける冗長度動的変更手法の検討",
+		time: "14:00 ~ 14:30",
+		title: "異種高密度ネットワークにおけるセル滞在時間に基づく垂直ハンドオーバ数の特性解析",
+		speaker: "福原 健太（芝浦工大・学士4年)",
+	},
+	{
+		time: "14:30 ~ 15:00",
+		title: "受信者代弁型情報伝送プロトコルにおけるスレッド識別可能な多重化方式",
+		speaker: "大坪 正樹（東工大・修士1年）",
+	},
+];
+const SECTIONS2: Readonly<SectionProps[]> = [
+	{
+		time: "15:15 ~ 16:45",
+		title: "セッション 2",
+		additionalInfo: "座長: 山岡 克式",
+	},
+];
+const PRESENTATION2: Readonly<PresentationProps[]> = [
+	{
+		time: "15:15 ~ 15:45",
+		title: "周波数領域での画像分割に基づくハイブリッド型電子透かしの基礎検討",
+		speaker: "有田 喜晴（芝浦工大・学士4年)",
+	},
+	{
+		time: "15:45 ~ 16:15",
+		title: "マルチジョブ棄却率最適制御方式に対する待機キューを用いた応答時間短縮手法",
 		speaker: "在間 哲平（東工大・修士1年）",
 	},
 	{
-		time: "15:00 ~ 15:20",
-		title: "位置識別子を利用した受信者代弁型情報伝送プロトコル",
-		speaker: "大坪 正樹（東工大・修士1年）",
-	},
-	{
-		time: "15:20 ~ 15:40",
-		title: "可変ペイロードサイズに対する有限状態数VoIPトラヒックモデル",
+		time: "16:15 ~ 16:45",
+		title: "可変ペイロードサイズVoIPトラヒックモデルに対する精度向上手法",
 		speaker: "和氣 智慶（東工大・修士1年）",
 	},
 ];
-const SECOND_HALF_SECTIONS: Readonly<SectionProps[]> = [
+const SECTIONS3: Readonly<SectionProps[]> = [
 	{
-		time: "15:40 ~ 16:00",
+		time: "16:45 ~ 17:00",
 		title: "閉会の辞",
 		additionalInfo: "山岡 克式",
 	},
 	{
-		time: "16:00 ~ 18:00",
-		title: "休憩・買い出し等",
-		additionalInfo: "",
-	},
-	{
 		time: "18:00 ~",
-		title: "新入生歓迎会",
+		title: "懇親会",
 		additionalInfo: "",
 	},
 ];
@@ -87,23 +101,36 @@ const Program: FC = () => {
 		<section className="my-4">
 			<h2 className="mb-3">プログラム</h2>
 			<p>敬称略</p>
-			{FIRST_HALF_SECTIONS.map((section, index) => (
+			{SECTIONS1.map((section, index) => (
 				<>
 					<Section {...section} />
-					{index < FIRST_HALF_SECTIONS.length - 1 && <hr />}
+					{index < SECTIONS1.length - 1 && <hr />}
 				</>
 			))}
 			<div className="card my-3 bg-transparent">
 				<div className="card-body bg-transparent">
-					{PRESENTATIONS.map((presentation) => (
+					{PRESENTATION1.map((presentation) => (
 						<Presentation {...presentation} />
 					))}
 				</div>
 			</div>
-			{SECOND_HALF_SECTIONS.map((section, index) => (
+			{SECTIONS2.map((section, index) => (
 				<>
 					<Section {...section} />
-					{index < SECOND_HALF_SECTIONS.length - 1 && <hr />}
+					{index < SECTIONS2.length - 1 && <hr />}
+				</>
+			))}
+			<div className="card my-3 bg-transparent">
+				<div className="card-body bg-transparent">
+					{PRESENTATION2.map((presentation) => (
+						<Presentation {...presentation} />
+					))}
+				</div>
+			</div>
+			{SECTIONS3.map((section, index) => (
+				<>
+					<Section {...section} />
+					{index < SECTIONS3.length - 1 && <hr />}
 				</>
 			))}
 		</section>
