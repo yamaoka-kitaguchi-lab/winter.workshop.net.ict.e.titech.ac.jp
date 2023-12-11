@@ -8,7 +8,7 @@ interface ContentProps {
 const content: Readonly<ContentProps[]> = [
 	{
 		day: "2023年12月11日（月）",
-		content: "タイムテーブルを公開しました",
+		content: "プログラムを公開しました",
 	},
 	{
 		day: "2023年11月27日（月）",
