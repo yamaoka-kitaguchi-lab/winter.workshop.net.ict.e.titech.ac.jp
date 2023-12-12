@@ -50,8 +50,9 @@ const SECTIONS1: Readonly<SectionProps[]> = [
 const PRESENTATION1: Readonly<PresentationProps[]> = [
 	{
 		time: "14:00 ~ 14:30",
-		title: "異種高密度ネットワークにおけるセル滞在時間に基づく垂直ハンドオーバ数の特性解析",
-		speaker: "福原 健太（芝浦工大・学士4年)",
+		title:
+			"異種高密度ネットワークにおけるセル滞在時間に基づく垂直ハンドオーバ数の特性解析",
+		speaker: "福原 健太（芝浦工大・学士4年）",
 	},
 	{
 		time: "14:30 ~ 15:00",
@@ -69,12 +70,13 @@ const SECTIONS2: Readonly<SectionProps[]> = [
 const PRESENTATION2: Readonly<PresentationProps[]> = [
 	{
 		time: "15:15 ~ 15:45",
-		title: "周波数領域での画像分割に基づくハイブリッド型電子透かしの基礎検討",
-		speaker: "有田 喜晴（芝浦工大・学士4年)",
+		title: "DWTを用いた分割透かし画像に基づく電子透かしの基礎検討",
+		speaker: "有田 喜晴（芝浦工大・学士4年）",
 	},
 	{
 		time: "15:45 ~ 16:15",
-		title: "マルチジョブ棄却率最適制御方式に対する待機キューを用いた応答時間短縮手法",
+		title:
+			"マルチジョブ棄却率最適制御方式に対する待機キューを用いた応答時間短縮手法",
 		speaker: "在間 哲平（東工大・修士1年）",
 	},
 	{
