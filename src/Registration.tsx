@@ -13,13 +13,13 @@ const Registration = () => {
 								<mark className="yellow">12月6日（水）</mark>です．
 							</p>
 							<a
-								className="btn btn-primary"
+								className="btn btn-outline-primary"
 								href="https://forms.gle/4hkwpQnQ1jjBMFYb6"
 								role="button"
 								target="_blank"
 								rel="noreferrer"
 							>
-								参加登録
+								<i className="bi bi-pencil-square" /> 参加登録
 							</a>
 						</div>
 
@@ -30,13 +30,13 @@ const Registration = () => {
 								<mark className="yellow">12月12日（火）</mark>です．
 							</p>
 							<a
-								className="btn btn-primary"
+								className="btn btn-outline-primary"
 								href="https://forms.gle/6jTXXhwLPQXiqa2y9"
 								role="button"
 								target="_blank"
 								rel="noreferrer"
 							>
-								原稿投稿
+								<i className="bi bi-upload" /> 原稿投稿
 							</a>
 						</div>
 					</div>
@@ -49,23 +49,20 @@ const Registration = () => {
 					<div className="card-body bg-transparent">
 						<div>
 							<h4 className="mb-3">参加登録</h4>
-							<p>
-								以下のGoogleフォームに必要事項を登録してください．
-							</p>
+							<p>以下のGoogleフォームに必要事項を登録してください．</p>
 							<a
-								className="btn btn-primary"
+								className="btn btn-outline-primary"
 								href="https://forms.gle/4hkwpQnQ1jjBMFYb6"
 								role="button"
 								target="_blank"
 								rel="noreferrer"
 							>
-								参加登録
+								<i className="bi bi-pencil-square" /> 参加登録
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</section>
 	);
 };

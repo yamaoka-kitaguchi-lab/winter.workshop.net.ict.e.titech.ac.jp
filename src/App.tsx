@@ -6,6 +6,7 @@ import News from "./News";
 import Program from "./Program";
 import Detail from "./Presentation";
 import Registration from "./Registration";
+import Proceedings from "./Proceedings";
 
 const App = () => {
 	return (
@@ -17,6 +18,7 @@ const App = () => {
 				<Registration />
 				<Detail />
 				<Program />
+				<Proceedings />
 				<Inquiry />
 				<News />
 
