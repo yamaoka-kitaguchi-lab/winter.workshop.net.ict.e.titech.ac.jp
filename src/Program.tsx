@@ -92,7 +92,7 @@ const SECTIONS3: Readonly<SectionProps[]> = [
 		additionalInfo: "山岡 克式",
 	},
 	{
-		time: "18:00 ~",
+		time: "17:30 ~",
 		title: "懇親会",
 		additionalInfo: "",
 	},
